@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RIKA</title>
+</head>
+<body>
+    <!-- Översta raden med ikoner -->
+    <div class="top-bar">
+        <div class="left-icon">
+            <img src="Images/HeaderIcon.svg" alt="App Icon" class="icon">
+        </div>
+        <div class="search-container">
+            <button class="search-button" onclick="toggleSearchBox()">
+                <img src="Images/Search.svg" alt="Search" class="search-icon">
+            </button>
+            <input type="text" id="search-box" placeholder="Sök..." class="search-box">
+        </div>
+    </div>
+
+    <!-- Titel för kategorier-->
+    <h2 class="categories-title">Categories</h2>
+
+    <!-- Sektionen med knappar för kategorier -->
+    <div class="categories">
+        <div class="category-button">
+            <img src="Images/1categorieicon.svg" alt="Kategori 1">
+            <span>New Arrivals</span>
+            <span class="info">208 Product</span>
+        </div>
+        <div class="category-button">
+            <img src="Images/2categorieicon.svg" alt="Kategori 2">
+            <span>Clothes</span>
+            <span class="info">358 Product </span>
+        </div>
+        <div class="category-button">
+            <img src="Images/3categorieicon.svg" alt="Kategori 3">
+            <span>Bags</span>
+            <span class="info">160 Product</span>
+        </div>
+        <div class="category-button">
+            <img src="Images/4categorieicon.svg" alt="Kategori 4">
+            <span>Shoes</span>
+            <span class="info">230 Product</span>
+        </div>
+        <div class="category-button">
+            <img src="Images/5categorieicon.svg" alt="Kategori 5">
+            <span>Electronics</span>
+            <span class="info">130 Product</span>
+        </div>
+        <div class="category-button">
+            <img src="Images/6categorieicon.svg" alt="Kategori 6">
+            <span>Jewelry</span>
+            <span class="info">87 Product</span>
+        </div>
+    </div>
+
+<!-- Bottenmenyn -->
+<div class="bottom-nav">
+    <button class="nav-button">
+        <img src="Images/HomeIcon.svg" alt="Home" class="nav-icon">
+        <span class="nav-text">Home</span>
+    </button>
+    <button class="nav-button">
+        <img src="Images/ShoppingIcon.svg" alt="Cart" class="nav-icon">
+    </button>
+    <button class="nav-button">
+        <img src="Images/NotifIcon.svg" alt="Favorites" class="nav-icon">
+    </button>
+    <button class="nav-button">
+        <img src="Images/ProfileIcon.svg" alt="Profile" class="nav-icon">
+    </button>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
